@@ -6,7 +6,7 @@ const fileNumber = ''
 //Formação do nome do arquivo de entrada, supondo que sua formação seja input+fileNumber:
 const fileName = 'input' + fileNumber + '.csv'
 //Formação do path para o arquivo de entrada
-const csvFilePath='./exemplos/' + fileName
+const csvFilePath='./' + fileName
 //Leitura de bibliotecas:
 const csv = require('csvtojson') //Biblioteca para ler csv e transformar em json
 const fs = require('fs') //Biblioteca para salvar o arquivo .json
